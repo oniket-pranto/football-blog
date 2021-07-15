@@ -1,0 +1,40 @@
+
+/* header-section-style */
+
+.header-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+}
+/* .header-secttion-style-done */
+
+/* head-title-baner-image-style */
+/* .head-title-baner-image{
+    display: flex;
+} */
+
+/* head-title-baner-image-style-done */
+
+/* head-title-style */
+
+.head-title{
+font-size: 68px;
+
+}
+
+/* head-title-style-done */
+
+/* banner-image-style */
+
+.banner-image img{
+    height: 80%;
+    width: 80%;
+}
+/* banner-image-style-done */
+
+/* link-button-style */
+.link-button a{
+    text-decoration: none;
+}
+
+/* link-button-style-done */

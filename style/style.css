@@ -1,19 +1,28 @@
-/* google font */
+/* google font import */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-/* google font end */
+/* google font import done */
 
+/*--------------
+   body-style
+----------------- */
 body{
+    
     height: 100%;
-width: 100%;
-background-color: var(--body-bg-color);
-margin-left: 0;
-margin-top: 0;
-overflow-x: hidden;
-    }
+    width: 100%;
+    background-color: var(--body-bg-color);
+    margin-left: 0;
+    margin-top: 0;
+    overflow-x: hidden;
+}
+
+/*---------------------
+   body-style-done
+------------------------ */
 
 
-
-/* header-section-style */
+/*-------------------------
+  header-section-style
+--------------------------- */
 
 
 .header-section{
@@ -23,9 +32,13 @@ overflow-x: hidden;
     background-color: #2D25A0;
     height: 677px;
 }
-/* .header-secttion-style-done */
+/*--------------------------------
+   header-secttion-style-done
+----------------------------------- */
 
-/* head-title-style */
+/*---------------------- 
+  head-title-style
+------------------------ */
 
 .head-tittle{
     width: 395px;
@@ -41,10 +54,13 @@ color: #FFFFFF;
 font-size: 48px;
 
 }
+/* ----------------------------
+   head-title-style-done
+------------------------------  */
 
-/* head-title-style-done */
-
-/* banner-image-style */
+/*-----------------------
+   banner-image-style
+-------------------------- */
 
 .banner-image{
     position: absolute;
@@ -54,12 +70,16 @@ font-size: 48px;
 }
 .banner-image img{
     width: 455px;
-height: 419px;
+    height: 419px;
    
 }
-/* banner-image-style-done */
+/*--------------------------
+   banner-image-style-done
+ --------------------------- */
 
-/* link-button-style */
+/*--------------------
+  link-button-style
+---------------------- */
 .link-button{
     display: flex;
 flex-direction: row;
@@ -86,3 +106,40 @@ margin-top: 464px;
     font-size: 16px;
     line-height: 24px;
 }
+/* ------------------------- 
+  link-button-style done
+----------------------------- */
+/*-------------------------------------------- 
+   section 2 player image and info style
+----------------------------------------------- */
+.players-info{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.players img{
+    width: 300px;
+    height: 256px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------- 
+   section 2 player image and info style done
+----------------------------------------------- */

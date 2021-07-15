@@ -1,5 +1,6 @@
 /* google font import */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
 /* google font import done */
 
 /*--------------
@@ -45,7 +46,7 @@ body{
     padding-top: 207px;
     padding-left: 156px;
     padding-bottom: 240px;
-    padding-right: 799px; ;
+    padding-right: 52px; 
 }
 .head-tittle h1{
 font-family: 'Poppins', sans-serif;
@@ -104,6 +105,8 @@ font-size: 48px;
     font-size: 16px;
     line-height: 24px;
 }
+
+
 /* ------------------------- 
   link-button-style done
 ----------------------------- */
@@ -116,8 +119,8 @@ font-size: 48px;
     grid-row-gap: 30px;
     padding-top: 80px;
     padding-left: 180px;
-    width: 1050px;
-    height: 474px;
+    /* width: 1050px;
+    height: 474px; */
 
 }
 
@@ -145,4 +148,188 @@ font-size: 48px;
 
 /*-------------------------------------------- 
    section 2 player image and info style done
+              section 2 end
 ----------------------------------------------- */
+
+/*---------------------------------
+  section-3 start here
+-------------------------------- */
+.Copa-America{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-bottom: 30px;
+}
+
+.highlight-box{
+    width: 466px;
+    height: 309px;
+    padding-left: 182px;
+    padding-top: 224px;
+
+
+}
+
+.h1-style{
+    position: static;
+    width: 466px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+}
+.h1-style h1{
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 60px;
+
+
+color: #0A0826;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 8px 0px;
+}
+.span-h1{
+    display:  block ruby;
+}
+.p-text{
+    position: static;
+    Width:300px;
+    Height:104px;
+
+}
+
+.p-text p{
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+
+
+color: #6C6C6C;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 8px 0px;
+}
+.link-button2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    
+    position: static;
+    width: 173px;
+    height: 44px;
+    margin-left: 0px;
+    margin-top: 265px;
+    
+    background-color: #E02C6D;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 24px 0px;
+    
+}
+.link-button2 a{
+    text-decoration: none;
+    padding: 10px 24px 10px 24px;
+    background-color:  #E02C6D;
+    color:  #FFFFFF;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+
+}
+.copa-highlight-video {
+            width: 567px;
+            height: 427px;
+            padding-left: 69px;
+            padding-top: 166px;
+}
+.copa-highlight-video iframe{
+            width: 500px;
+            height: 427px;
+            border-radius: 10px;
+}
+
+
+/*---------------------------------
+  section-3 end here
+-------------------------------- */
+
+/* footer start */
+.footer-section{
+width: 483.87px;
+height: 213px;
+padding-top: 158px;
+padding-left: 475px;
+padding-bottom: 63px;
+padding-right: 481.13px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: absolute;
+}
+.logo-png{
+position: static;
+width: 483.87px;
+height: 110px;
+left: 0px;
+top: 0px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 20px 0px;
+    
+}
+.logo-png img{
+width: 483.87px;
+height: 110px;
+    
+}
+.social-icon{
+    width: 170px;
+    height: 32px;
+    padding-left: 156.94px;
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 14px;
+}
+.copyright-bar{
+    position: static;
+display: flex;
+align-items: center;
+flex: none;
+    flex-grow: 0;
+order: 2;
+flex-grow: 0;
+margin: 20px 0px;
+Width: 241px;
+Height: 31px;
+padding-top: 0px;
+padding-bottom: 0px;
+padding-right: 0px;
+padding-left: 133px;
+}
+.copyright-work h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    text-align: right;
+}
+ /* footer-end */

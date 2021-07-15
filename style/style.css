@@ -1,24 +1,44 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* google font end */
+
+body{
+    height: 100%;
+width: 100%;
+background-color: var(--body-bg-color);
+margin-left: 0;
+margin-top: 0;
+overflow-x: hidden;
+    }
+
+
 
 /* header-section-style */
+
 
 .header-section{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 100%;
+    width: 1440px;
+    background-color: #2D25A0;
+    height: 677px;
 }
 /* .header-secttion-style-done */
 
-/* head-title-baner-image-style */
-/* .head-title-baner-image{
-    display: flex;
-} */
-
-/* head-title-baner-image-style-done */
-
 /* head-title-style */
 
-.head-title{
-font-size: 68px;
+.head-tittle{
+    width: 395px;
+    height: 483px;
+    padding-top: 207px;
+    padding-left: 156px;
+    padding-bottom: 240px;
+    padding-right: 799px; ;
+}
+.head-tittle h1{
+font-family: 'Poppins', sans-serif;
+color: #FFFFFF;
+font-size: 48px;
 
 }
 
@@ -26,15 +46,43 @@ font-size: 68px;
 
 /* banner-image-style */
 
+.banner-image{
+    position: absolute;
+    padding-top: 143px;
+    padding-left: 620px;
+
+}
 .banner-image img{
-    height: 80%;
-    width: 80%;
+    width: 455px;
+height: 419px;
+   
 }
 /* banner-image-style-done */
 
 /* link-button-style */
+.link-button{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 1px;
+
+position: absolute;
+width: 168px;
+height: 44px;
+margin-left: 156px;
+margin-top: 464px;
+
+
+
+}
 .link-button a{
     text-decoration: none;
+    padding: 10px 24px 10px 24px;
+    background-color:  #E02C6D;
+    color:  #FFFFFF;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
 }
-
-/* link-button-style-done */
